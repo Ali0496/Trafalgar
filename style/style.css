@@ -107,8 +107,14 @@ a {
 }
 .hero-left button:hover{
     background-color: #3A6FF7;
-    transform: scale(1.1);
- /* SERVICES */}
+    transform: scale(1.1);}
+
+.hero-left button:active { 
+
+    background-color: #3A6FF7;
+    transform: scale(0.99);}
+ /* SERVICES */
+
 
 
  .services {
@@ -200,6 +206,11 @@ a {
     color: #FFFFFF;
     transform: scale(1.1);
 }
+.services-btn button:active{
+    background-color: #458FF6;
+    color: #FFFFFF;
+    transform: scale(0.98);
+}
 .banner-wrapper {
     display: flex;
     align-items: center;
@@ -244,5 +255,6 @@ a {
     flex-direction: row-reverse;
 
 }
+
 
 
