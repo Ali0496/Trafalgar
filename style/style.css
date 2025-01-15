@@ -267,7 +267,7 @@ a {
 }
 .customer-top h5 {
     text-align: center;
-    color: #FFF;
+    color: #ffffff;
     font-size: 36px;
     font-weight: 700;
     line-height: 48px; /* 133.333% */
@@ -344,7 +344,72 @@ a {
 #a-arrow{
     opacity: 0.3;
     rotate: 180deg;
-    /*scale: 0.9; kattalashtiradi
+}
+
+.article {
+    margin: 222px 0 202px;
+}
+
+.article h2 {
+    font-size: 36px;
+    line-height: 56px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+}
+
+.article h2::after {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 2px;
+    background-color: #000;
+    margin: 26px auto 80px;
+} 
+.article-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    margin-bottom: 69px;
 
 }
 
+.article-card {
+    width: 350px;
+    border-radius: 20px;
+    background: #FFF;
+    /* drop shadow */
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    overflow: hidden;
+}
+.article-card img {
+    width: auto;
+    max-height: 240px;
+}
+
+.article-card h4 {
+    color: #000;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 21px 0 12px 33px;
+    max-width: 251px;
+}
+.article-card p {
+    color: #7D7987;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 0 0 25px 33px;
+    max-width: 251px;
+
+}
+
+.article-card a {
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
