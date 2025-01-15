@@ -402,7 +402,6 @@ a {
     line-height: 28px;
     margin: 0 0 25px 33px;
     max-width: 251px;
-
 }
 
 .article-card a {
@@ -412,4 +411,16 @@ a {
     font-weight: 600;
     display: flex;
     align-items: center;
+    margin: 0 0 35px 33px;
+    gap: 12px;
+}
+.article button {
+    padding: 0 66px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    background-color: transparent;
+    line-height: 60px;
+    font-size: 18px;
+    color: #458FF6;
+    font-weight: 700;
 }
