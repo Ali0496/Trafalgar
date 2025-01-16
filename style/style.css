@@ -423,4 +423,23 @@ a {
     font-size: 18px;
     color: #458FF6;
     font-weight: 700;
+    display: block;
+    margin: 0 auto;
 }
+    
+.footer {
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    display: flex;
+    padding: 100px 191px;
+}
+.footer-left {
+
+}
+.footer-logo{
+
+}
+.footer-left .footer-text{
+
+}
+.
+
